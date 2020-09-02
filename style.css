@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(235, 204, 68);
+}
+#navBar {
+    background: rgb(101, 207, 201);
+    float: top;
+    height: 75px;
+}
+#location {
+    background: rgb(0, 255, 13);
+    text-emphasis: bold;
+}
+@keyframes main {
+    0% {color: red}
+    25% {color: yellow}
+    50% {color: blue}
+    75% {color: green}
+    100% {color: purple}
+}
+@keyframes select {
+    0% {background-color: red;}
+}
+h1 {
+    animation-name: main;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
