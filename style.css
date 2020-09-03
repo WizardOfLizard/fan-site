@@ -17,9 +17,6 @@ body {
     75% {color: green}
     100% {color: purple}
 }
-@keyframes select {
-    0% {background-color: red;}
-}
 h1 {
     animation-name: main;
     animation-duration: 10s;
