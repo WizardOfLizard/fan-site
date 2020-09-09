@@ -5,6 +5,8 @@ body {
     background: rgb(101, 207, 201);
     float: top;
     height: 75px;
+    border-style: dotted;
+    border-color: rgb(21, 255, 0);
 }
 #location {
     background: rgb(0, 255, 13);
@@ -21,4 +23,8 @@ h1 {
     animation-name: main;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+    font-family: 'arial black';
+}
+h3 {
+    margin: 10px;
 }
